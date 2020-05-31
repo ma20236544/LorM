@@ -18,7 +18,7 @@ custom_proxy_group=Final`select`[]Proxies`[]DIRECT
 custom_proxy_group=🇭🇰香港`select`港|HK|东落地
 custom_proxy_group=🇸🇬新加坡`select`新|狮城
 custom_proxy_group=🇨🇳台湾`select`台
-custom_proxy_group=🇯🇵日本`select`日((?!用).)+|东京|大阪|埼玉|NTTPC|IIJ|软银
+custom_proxy_group=🇯🇵日本`select`日|软银|IIJ|NTTPC
 custom_proxy_group=🇺🇸美国`select`美|洛杉矶|硅谷|达拉斯|费利蒙|凤凰城|芝加哥|圣何塞|西雅图
 custom_proxy_group=🇰🇷韩国`select`韩
 
