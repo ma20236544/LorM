@@ -27,6 +27,19 @@ overwrite_original_rules=true
 
 clash_rule_base=https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/LAZY_RULES/clash.yaml
 
-emoji=NTTPC,🇯🇵
+emoji=(港|东落地),🇭🇰
+emoji=新加坡,🇸🇬
+emoji=台湾,🇨🇳
+emoji=(日|软银|IIJ|NTTPC),🇯🇵
+emoji=美国,🇺🇸
+emoji=韩,🇰🇷
+emoji=俄罗斯,🇷🇺
+emoji=加拿大,🇨🇦
+emoji=印度,🇮🇳
+emoji=德国,🇩🇪
+emoji=朝鲜,🇰🇵
+emoji=澳大利亚,🇦🇺
+emoji=英国,🇬🇧
+emoji=荷兰,🇳🇱
 
-exclude_remarks=套餐
+exclude_remarks=(套餐|官网|回国)
