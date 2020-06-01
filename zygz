@@ -26,3 +26,7 @@ enable_rule_generator=true
 overwrite_original_rules=true
 
 clash_rule_base=https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/LAZY_RULES/clash.yaml
+
+emoji=NTTPC,🇯🇵
+
+exclude_remarks=套餐
