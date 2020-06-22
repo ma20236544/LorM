@@ -1,6 +1,5 @@
 surge_ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 surge_ruleset=Apple,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
-surge_ruleset=Steam,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
 surge_ruleset=Youtube,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
 surge_ruleset=Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
 surge_ruleset=GlobalMedia,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
@@ -12,7 +11,6 @@ surge_ruleset=Final,[]FINAL
 
 custom_proxy_group=Proxies`select`.*`[]🇭🇰香港`[]🇸🇬新加坡`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇰🇷韩国`[]DIRECT
 custom_proxy_group=Apple`select`[]Proxies`[]DIRECT
-custom_proxy_group=Steam`select`[]Proxies`[]DIRECT
 custom_proxy_group=Youtube`select`[]Proxies`[]🇭🇰香港`[]🇸🇬新加坡`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇰🇷韩国`[]DIRECT
 custom_proxy_group=Netflix`select`[]Proxies`[]🇭🇰香港`[]🇸🇬新加坡`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇰🇷韩国`[]DIRECT
 custom_proxy_group=GlobalMedia`select`[]Proxies`[]🇭🇰香港`[]🇸🇬新加坡`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇰🇷韩国`[]DIRECT
