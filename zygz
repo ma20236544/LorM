@@ -45,4 +45,4 @@ emoji=巴西,🇧🇷
 emoji=阿根廷,🇦🇷
 emoji=南非,🇿🇦
 
-exclude_remarks=(套餐|官网|回国|用户群)
+exclude_remarks=(套餐|官网|回国|用户群|剩余流量|过期时间)
