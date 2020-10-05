@@ -47,4 +47,4 @@ emoji=阿根廷,🇦🇷
 emoji=南非,🇿🇦
 emoji=澳门,🇲🇴
 
-exclude_remarks=(套餐|官网|回国|用户群|剩余流量|过期时间)
+exclude_remarks=(套餐|官网|回国|用户群|剩余流量|过期时间|游戏加速专用)
