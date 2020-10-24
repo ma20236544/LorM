@@ -71,14 +71,20 @@ dns:
   #   - localhost.ptlogin2.qq.com
 
   nameserver:
-    - tls://13800000000.rubyfish.cn
+    - tls://rubyfish.cn
     - tls://dot.360.cn
     - tls://dns.alidns.com
+    - tls://dns.pub
+    
+  fallback:
+    - tls://rubyfish.cn
+    - tls://1.0.0.1:853
+    - tls://dns.google
 
-  # fallback-filter:
-    # geoip: false
-    # ipcidr:
-      # - 240.0.0.0/4
+  fallback-filter:
+    geoip: true
+    ipcidr:
+      - 240.0.0.0/4
       
 # 1. clash DNS 请求逻辑：
 #   (1) 当访问一个域名时， nameserver 与 fallback 列表内的所有服务器并发请求，得到域名对应的 IP 地址。
