@@ -64,7 +64,7 @@ dns:
     - 119.29.29.29
     
   enhanced-mode: redir-host # 或 fake-ip
-  fake-ip-range: 198.18.0.1/16 # 如果你不知道这个参数的作用，请勿修改
+  # fake-ip-range: 198.18.0.1/16 # 如果你不知道这个参数的作用，请勿修改
   use-hosts: true
   # fake-ip-filter: # fake-ip 白名单列表
   #   - '*.lan'
@@ -75,9 +75,9 @@ dns:
     - tls://dot.360.cn
     - tls://dns.alidns.com
 
-  fallback-filter:
-    geoip: false # 默认
-    ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
+  # fallback-filter:
+    # geoip: false
+    # ipcidr:
       # - 240.0.0.0/4
       
 # 1. clash DNS 请求逻辑：
