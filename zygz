@@ -28,7 +28,7 @@ custom_proxy_group=🇰🇷韩国`select`韩
 enable_rule_generator=true
 overwrite_original_rules=true
 
-# clash_rule_base=https://raw.githubusercontent.com/ma20236544/LorM/master/config
+clash_rule_base=https://raw.githubusercontent.com/ma20236544/LorM/master/config
 
 emoji=(港|东落地),🇭🇰
 emoji=新加坡,🇸🇬
