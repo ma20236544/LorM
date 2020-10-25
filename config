@@ -78,7 +78,6 @@ dns:
     
   fallback:
     - tls://rubyfish.cn
-    - tls://1.0.0.1:853
     - tls://dns.google
 
   fallback-filter:
