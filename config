@@ -73,7 +73,7 @@ dns:
     - tls://rubyfish.cn
     - tls://dot.360.cn
     - tls://dns.alidns.com
-    - tls://dns.pub
+    - tls://dot.pub
     
   # fallback:
   #   - tls://rubyfish.cn
