@@ -56,11 +56,11 @@ dns:
   ipv6: false
   listen: 0.0.0.0:53
   
-  default-nameserver:
-    - 1.2.4.8
-    - 223.5.5.5
-    - 114.114.114.114
-    - 119.29.29.29
+  # default-nameserver:
+  #   - 1.2.4.8
+  #   - 223.5.5.5
+  #   - 114.114.114.114
+  #   - 119.29.29.29
     
   enhanced-mode: redir-host # 或 fake-ip
   # fake-ip-range: 198.18.0.1/16 # 如果你不知道这个参数的作用，请勿修改
@@ -70,19 +70,17 @@ dns:
   #   - localhost.ptlogin2.qq.com
 
   nameserver:
-    - tls://rubyfish.cn
-    - tls://dot.360.cn
-    - tls://dns.alidns.com
-    - tls://dot.pub
+    - 202.99.96.68
+    - 202.99.104.68
     
-  # fallback:
-  #   - tls://rubyfish.cn
-  #   - tls://dns.google
+  fallback:
+    - 8.8.8.8
+    - 8.8.4.4
 
-  # fallback-filter:
-  #   geoip: true
-  #   ipcidr:
-  #     - 240.0.0.0/4
+  fallback-filter:
+    geoip: true
+    ipcidr:
+      - 240.0.0.0/4
       
 # 1. clash DNS 请求逻辑：
 #   (1) 当访问一个域名时， nameserver 与 fallback 列表内的所有服务器并发请求，得到域名对应的 IP 地址。
