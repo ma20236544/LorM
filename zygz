@@ -11,18 +11,17 @@ surge_ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Cl
 surge_ruleset=DIRECT,[]GEOIP,CN
 surge_ruleset=Final,[]FINAL
 
-custom_proxy_group=Proxies`select`[]🇭🇰香港`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇦🇺澳洲`[]🇸🇬新加坡`.*
-custom_proxy_group=Apple`select`[]Proxies`[]DIRECT`[]🇭🇰香港`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇦🇺澳洲`[]🇸🇬新加坡
-custom_proxy_group=Youtube`select`[]Proxies`[]🇭🇰香港`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇦🇺澳洲`[]🇸🇬新加坡
-custom_proxy_group=Netflix`select`[]Proxies`[]🇭🇰香港`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇦🇺澳洲`[]🇸🇬新加坡
-custom_proxy_group=GlobalMedia`select`[]Proxies`[]DIRECT`[]🇭🇰香港`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇦🇺澳洲`[]🇸🇬新加坡
-custom_proxy_group=Final`select`[]Proxies`[]DIRECT`[]🇭🇰香港`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇦🇺澳洲`[]🇸🇬新加坡
+custom_proxy_group=Proxies`select`[]🇭🇰香港`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇸🇬新加坡`.*
+custom_proxy_group=Apple`select`[]Proxies`[]DIRECT`[]🇭🇰香港`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇸🇬新加坡
+custom_proxy_group=Youtube`select`[]Proxies`[]🇭🇰香港`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇸🇬新加坡
+custom_proxy_group=Netflix`select`[]Proxies`[]🇭🇰香港`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇸🇬新加坡
+custom_proxy_group=GlobalMedia`select`[]Proxies`[]DIRECT`[]🇭🇰香港`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇸🇬新加坡
+custom_proxy_group=Final`select`[]Proxies`[]DIRECT`[]🇭🇰香港`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇸🇬新加坡
 custom_proxy_group=🇭🇰香港`select`香港
 custom_proxy_group=🇨🇳台湾`select`台湾
 custom_proxy_group=🇸🇬新加坡`select`新加坡
 custom_proxy_group=🇯🇵日本`select`日本
 custom_proxy_group=🇺🇸美国`select`美国
-custom_proxy_group=🇦🇺澳洲`select`澳洲
 
 enable_rule_generator=true
 overwrite_original_rules=true
@@ -49,6 +48,8 @@ emoji=南非,🇿🇦
 emoji=澳门,🇲🇴
 emoji=土耳其,🇹🇷
 emoji=亚洲,🌏
+emoji=欧洲,🌍
+emoji=南美,🌎
 
 #exclude_remarks=(套餐|官网|回国|用户群|剩余流量|过期时间|游戏加速|白嫖|IPV6|校园|精简|本站|测试)
 #rename_node=云 - @
