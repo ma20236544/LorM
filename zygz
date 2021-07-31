@@ -14,6 +14,7 @@ surge_ruleset=DIRECT,[]GEOIP,CN
 surge_ruleset=Final,[]FINAL
 
 custom_proxy_group=Proxies`select`[]🇭🇰香港`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇸🇬新加坡`.*
+custom_proxy_group=AdBlock`select`[]REJECT`[]DIRECT
 custom_proxy_group=Apple`select`[]Proxies`[]DIRECT`[]🇭🇰香港`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇸🇬新加坡
 custom_proxy_group=Youtube`select`[]Proxies`[]🇭🇰香港`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇸🇬新加坡
 custom_proxy_group=Netflix`select`[]Proxies`[]🇭🇰香港`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇸🇬新加坡
