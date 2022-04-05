@@ -1,7 +1,6 @@
 surge_ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 surge_ruleset=Proxies,https://raw.githubusercontent.com/ma20236544/LorM/master/otp
 surge_ruleset=DIRECT,https://raw.githubusercontent.com/ma20236544/LorM/master/otd
-surge_ruleset=AppleTV+,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AppleTV.list
 surge_ruleset=Apple,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
 surge_ruleset=Youtube,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
 surge_ruleset=Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
@@ -16,7 +15,6 @@ surge_ruleset=Final,[]FINAL
 
 custom_proxy_group=Proxies`select`[]🇭🇰香港`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇸🇬新加坡`[]🚢其他`.*
 custom_proxy_group=Apple`select`[]Proxies`[]DIRECT`[]🇭🇰香港`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇸🇬新加坡`[]🚢其他
-custom_proxy_group=AppleTV+`select`[]Proxies`[]DIRECT`[]🇭🇰香港`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇸🇬新加坡`[]🚢其他
 custom_proxy_group=Youtube`select`[]Proxies`[]🇭🇰香港`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇸🇬新加坡`[]🚢其他
 custom_proxy_group=Netflix`select`[]Proxies`[]🇭🇰香港`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇸🇬新加坡`[]🚢其他
 custom_proxy_group=Disney+`select`[]Proxies`[]🇭🇰香港`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇸🇬新加坡`[]🚢其他
