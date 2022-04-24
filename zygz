@@ -1,6 +1,7 @@
 surge_ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 surge_ruleset=Proxies,https://raw.githubusercontent.com/ma20236544/LorM/master/otp
 surge_ruleset=DIRECT,https://raw.githubusercontent.com/ma20236544/LorM/master/otd
+surge_ruleset=Proxies,https://raw.githubusercontent.com/VirgilClyne/iRingo/main/RuleSet/Wikipedia_for_Look_Up.yaml
 surge_ruleset=Proxies,https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/Loon/LoonRemoteRule/Apple/AppleNoChinaCDNRules.conf
 surge_ruleset=DIRECT,https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/Loon/LoonRemoteRule/Apple/AppleAPIRules.conf
 surge_ruleset=DIRECT,https://raw.githubusercontent.com/ma20236544/FuGfConfig/main/ConfigFile/Loon/LoonRemoteRule/Apple/AppleRules.conf
