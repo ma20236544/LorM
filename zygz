@@ -28,7 +28,7 @@ custom_proxy_group=🇨🇳台湾`select`台湾
 custom_proxy_group=🇸🇬新加坡`select`新加坡
 custom_proxy_group=🇯🇵日本`select`日本
 custom_proxy_group=🇺🇸美国`select`美国
-custom_proxy_group=🚢其他`select`欧洲|澳洲|韩国|南美|印度|俄罗斯
+custom_proxy_group=🚢其他`select`欧洲|澳洲|韩国|南美|印度|俄罗斯|英国|阿根廷
 
 enable_rule_generator=true
 overwrite_original_rules=true
