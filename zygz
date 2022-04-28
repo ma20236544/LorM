@@ -58,6 +58,7 @@ emoji=土耳其,🇹🇷
 emoji=亚洲,🌏
 emoji=欧洲,🌍
 emoji=南美,🌎
+emoji=马来西亚,🇲🇾
 
 #exclude_remarks=(套餐|官网|回国|用户群|剩余流量|过期时间|游戏加速|白嫖|IPV6|校园|精简|本站|测试)
 #rename_node=云 - @
