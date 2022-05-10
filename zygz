@@ -28,7 +28,7 @@ custom_proxy_group=🇨🇳台湾`select`台湾
 custom_proxy_group=🇸🇬新加坡`select`新加坡
 custom_proxy_group=🇯🇵日本`select`日本
 custom_proxy_group=🇺🇸美国`select`美国
-custom_proxy_group=🚢其他`select`欧洲|澳洲|韩国|南美|印度|俄罗斯|英国|阿根廷|土耳其|马来西亚|泰国|菲律宾|越南|冰岛|法国|意大利|加拿大|墨西哥
+custom_proxy_group=🚢其他`select`欧洲|澳洲|韩国|南美|印度|俄罗斯|英国|阿根廷|土耳其|马来西亚|泰国|菲律宾|越南|冰岛|法国|意大利|加拿大|墨西哥|巴基斯坦
 
 
 enable_rule_generator=true
@@ -67,6 +67,7 @@ emoji=冰岛,🇮🇸
 emoji=法国,🇫🇷
 emoji=意大利,🇮🇹
 emoji=墨西哥,🇲🇽
+emoji=巴基斯坦,🇵🇰
 
 #exclude_remarks=(套餐|官网|回国|用户群|剩余流量|过期时间|游戏加速|白嫖|IPV6|校园|精简|本站|测试)
 #rename_node=云 - @
