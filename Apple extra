@@ -1,0 +1,10 @@
+## iTunes Music Stream
+DOMAIN-SUFFIX,video-ssl.itunes.apple.com
+DOMAIN-SUFFIX,mvod.itunes.apple.com
+DOMAIN-SUFFIX,itsliveradio.apple.com
+DOMAIN-SUFFIX,itsliveradiobackup.apple.com
+DOMAIN-SUFFIX,aodp-ssl.apple.com
+## Apple TV
+DOMAIN-KEYWORD,tv.apple.com
+DOMAIN-KEYWORD,tv.g.apple.com
+DOMAIN-KEYWORD,tv.v.aaplimg.com
