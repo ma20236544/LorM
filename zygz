@@ -29,7 +29,7 @@ custom_proxy_group=🇨🇳台湾`select`台湾|Taiwan
 custom_proxy_group=🇸🇬新加坡`select`新加坡|Singapore
 custom_proxy_group=🇯🇵日本`select`日本|Japan
 custom_proxy_group=🇺🇸美国`select`美国|USA
-custom_proxy_group=🚢其他`select`欧洲|Korea|Russia|Canada|India|Germany|Australia|UK|Netherlands|Brazil|Argentina|Turkey|France|Italy|Switzerland|Sweden|Ireland|Indonesia|Hungary|Austria|Bulgaria|澳洲|澳大利亚|新西兰|德国|荷兰|巴西|韩国|南美|印度|俄罗斯|英国|阿根廷|土耳其|马来西亚|泰国|菲律宾|越南|冰岛|法国|意大利|加拿大|墨西哥|巴基斯坦|南非|尼日利亚|西班牙|瑞士|瑞典|爱尔兰|印尼|立陶宛|匈牙利|比利时|智利|阿联酋|以色列|葡萄牙|乌克兰|罗马尼亚|奥地利
+custom_proxy_group=🚢其他`select`欧洲|Korea|Russia|Canada|India|Germany|Australia|UK|Netherlands|Brazil|Argentina|Turkey|France|Italy|Switzerland|Sweden|Ireland|Indonesia|Hungary|Austria|Bulgaria|智利|Chile|澳洲|澳大利亚|新西兰|德国|荷兰|巴西|韩国|南美|印度|俄罗斯|英国|阿根廷|土耳其|马来西亚|泰国|菲律宾|越南|冰岛|法国|意大利|加拿大|墨西哥|巴基斯坦|南非|尼日利亚|西班牙|瑞士|瑞典|爱尔兰|印尼|立陶宛|匈牙利|比利时|智利|阿联酋|以色列|葡萄牙|乌克兰|罗马尼亚|奥地利
 
 enable_rule_generator=true
 overwrite_original_rules=true
@@ -86,6 +86,7 @@ emoji=罗马尼亚,🇷🇴
 emoji=(奥地利|Austria),🇦🇹
 emoji=新西兰,🇳🇿
 emoji=(保加利亚|Bulgaria),🇧🇬
+emoji=(智利|Chile),🇨🇱
 
 exclude_remarks=(套餐|官网|回国|用户群|剩余流量|过期时间|游戏加速|白嫖|IPV6|校园|精简|本站|Premium)
 #rename_node=云 - @
