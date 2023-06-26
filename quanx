@@ -24,8 +24,8 @@ https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrit
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/AdvertisingPlus.conf, tag=AdvertisingPlus, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/qiangxinglin/Emby/main/QuantumultX/emby.conf, tag=Emby Premiere, update-interval=172800, opt-parser=false, enabled=true
 #https://raw.githubusercontent.com/VirgilClyne/iRingo/main/qxrewrite/Weather.qxrewrite, tag= iRingo for Apple Weather, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/VirgilClyne/iRingo/main/qxrewrite/Location.qxrewrite, tag= iRingo for Location Services, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/VirgilClyne/iRingo/main/qxrewrite/Siri.qxrewrite, tag= iRingo for Siri & Search, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/VirgilClyne/iRingo/main/snippet/Location.snippet, tag= iRingo for Location Services, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/VirgilClyne/iRingo/main/snippet/Siri.snippet, tag= iRingo for Siri & Search, update-interval=172800, opt-parser=false, enabled=true
 #https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf, tag=BoxJs, update-interval=172800, opt-parser=false, enabled=true
 
 [server_local]
