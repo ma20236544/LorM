@@ -1,7 +1,7 @@
 DOMAIN-SUFFIX,mac-torrent-download.net
 DOMAIN-KEYWORD,pikpak
 DOMAIN-KEYWORD,iosapps
-#DOMAIN-KEYWORD,ffzy
-#DOMAIN,img.liangzipic.com
-#DOMAIN-KEYWORD,lz-cdn
-#DOMAIN,cj.lziapi.com
+DOMAIN-KEYWORD,ffzy
+DOMAIN,img.liangzipic.com
+DOMAIN-KEYWORD,lz-cdn
+DOMAIN,cj.lziapi.com
