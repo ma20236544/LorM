@@ -7,8 +7,3 @@ DOMAIN,gateway.icloud.com
 DOMAIN,metrics.icloud.com
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN,gdmf.apple.com
-DOMAIN-KEYWORD,ffzy
-DOMAIN,cj.lziapi.com
-DOMAIN,pic.lzzypic.com
-DOMAIN,img.lzzyimg.com
-DOMAIN-KEYWORD,lz-cdn
