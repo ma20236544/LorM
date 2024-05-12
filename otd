@@ -10,4 +10,4 @@ DOMAIN,gdmf.apple.com
 DOMAIN-SUFFIX,plex.tv
 DOMAIN-SUFFIX,emby.wtf
 DOMAIN-SUFFIX,880660.xyz
-IP6-CIDR,::/0
+IP-CIDR6,::/0
