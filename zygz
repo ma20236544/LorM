@@ -1,7 +1,6 @@
 surge_ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 surge_ruleset=Proxies,https://raw.githubusercontent.com/ma20236544/LorM/master/otp
 surge_ruleset=DIRECT,https://raw.githubusercontent.com/ma20236544/LorM/master/otd
-surge_ruleset=DIRECT,https://raw.githubusercontent.com/qoli/SyncnextClash/main/Unbreak-classical.yaml
 surge_ruleset=Youtube,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
 surge_ruleset=Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
 surge_ruleset=Disney+,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/DisneyPlus.list
