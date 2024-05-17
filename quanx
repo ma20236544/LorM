@@ -11,6 +11,7 @@ server=1.0.0.1
 server=8.8.8.8
 
 [policy]
+static=TikTok, Proxies, DIRECT, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇯🇵日本, 🇺🇸美国
 
 [server_remote]
 
