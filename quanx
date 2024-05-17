@@ -16,6 +16,7 @@ server=8.8.8.8
 
 [filter_remote]
 
+
 [rewrite_remote]
 #https://raw.githubusercontent.com/srk24/profile/master/quanx/bilibili.conf, tag=Bilibili, update-interval=172800, opt-parser=false, enabled=true
 #https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/AdvertisingScript/AdvertisingScript.conf, tag=脚本去广告, update-interval=172800, opt-parser=false, enabled=true
@@ -27,6 +28,7 @@ https://raw.githubusercontent.com/qiangxinglin/Emby/main/QuantumultX/emby.conf, 
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/snippet/Location.snippet, tag= iRingo for Location Services, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/snippet/Siri.snippet, tag= iRingo for Siri & Search, update-interval=172800, opt-parser=false, enabled=true
 #https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf, tag=BoxJs, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult-X/TikTok-US.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=true
 
 [server_local]
 
