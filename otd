@@ -8,9 +8,6 @@ DOMAIN,metrics.icloud.com
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN,gdmf.apple.com
 #DOMAIN-SUFFIX,plex.tv
-DOMAIN-SUFFIX,emby.wtf
-DOMAIN-SUFFIX,880660.xyz
-DOMAIN-KEYWORD,misakaf
 
 # Syncnext
 DOMAIN-SUFFIX,movie.douban.com
