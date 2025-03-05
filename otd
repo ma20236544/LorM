@@ -6,7 +6,7 @@ DOMAIN-KEYWORD,cmbchina
 DOMAIN,gateway.icloud.com
 DOMAIN,metrics.icloud.com
 DOMAIN-SUFFIX,icloud-content.com
-DOMAIN,gdmf.apple.com
+#DOMAIN,gdmf.apple.com
 #DOMAIN-SUFFIX,plex.tv
 
 # Syncnext
