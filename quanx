@@ -24,7 +24,7 @@ doh-server=https://doh.pub/dns-query,https://dns.alidns.com/dns-query,https://dn
 #https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/AdvertisingLite/AdvertisingLite.conf, tag=复写去广告(严格版), update-interval=172800, opt-parser=false, enabled=true
 #https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/Advertising.conf, tag=Advertising, update-interval=172800, opt-parser=false, enabled=true
 #https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/AdvertisingPlus.conf, tag=AdvertisingPlus, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/ddgksf2013/Modules/main/Adblock.sgmodule, tag=Adblock, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Profile/master/QuantumultX.conf, tag=Adblock, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/qiangxinglin/Emby/main/QuantumultX/emby.conf, tag=Emby Premiere, update-interval=172800, opt-parser=false, enabled=true
 https://github.com/NSRingo/WeatherKit/releases/latest/download/iRingo.WeatherKit.snippet, tag= iRingo for Apple Weather, update-interval=172800, opt-parser=false, enabled=true
 https://github.com/NSRingo/GeoServices/releases/latest/download/iRingo.Maps.snippet, tag= iRingo for Maps, update-interval=172800, opt-parser=false, enabled=true
