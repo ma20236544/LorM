@@ -1,4 +1,4 @@
-surge_ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/LocalAreaNetwork.list
+surge_ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 surge_ruleset=Proxies,https://raw.githubusercontent.com/ma20236544/LorM/master/otp
 surge_ruleset=DIRECT,https://raw.githubusercontent.com/ma20236544/LorM/master/otd
 surge_ruleset=Youtube,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
@@ -29,7 +29,7 @@ custom_proxy_group=🇺🇸美国`select`美国|USA
 #custom_proxy_group=🚢其他`select`欧洲|KOR|IND|AUS|DEU|FRA|POL|NLD|ESP|RUS|ISL|DNK|CAN|GBR|PHL|THA|TUR|IDN|VNM|Korea|Russia|Canada|India|Germany|Australia|UK|Netherlands|Brazil|Argentina|Turkey|France|Italy|Switzerland|Sweden|Ireland|Indonesia|Hungary|Austria|Bulgaria|智利|Chile|澳洲|澳大利亚|新西兰|德国|荷兰|巴西|韩国|南美|印度|俄罗斯|英国|阿根廷|土耳其|马来西亚|泰国|菲律宾|越南|冰岛|法国|意大利|加拿大|墨西哥|巴基斯坦|南非|尼日利亚|西班牙|瑞士|瑞典|爱尔兰|印尼|立陶宛|匈牙利|比利时|智利|阿联酋|以色列|葡萄牙|乌克兰|罗马尼亚|奥地利
 
 enable_rule_generator=true
-overwrite_original_rules=false
+overwrite_original_rules=true
 
 #clash_rule_base=https://raw.githubusercontent.com/ma20236544/LorM/master/config
 quanx_rule_base=https://raw.githubusercontent.com/ma20236544/LorM/master/quanx
