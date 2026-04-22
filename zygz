@@ -1,7 +1,7 @@
 surge_ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 surge_ruleset=Proxies,https://raw.githubusercontent.com/ma20236544/LorM/master/otp
 surge_ruleset=DIRECT,https://raw.githubusercontent.com/ma20236544/LorM/master/otd
-surge_ruleset=Proxies,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/Sony.list
+#surge_ruleset=Proxies,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/Sony.list
 surge_ruleset=Youtube,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
 surge_ruleset=Terminus,https://raw.githubusercontent.com/ma20236544/LorM/refs/heads/master/Terminus
 surge_ruleset=Bilibili,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list
