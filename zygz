@@ -28,7 +28,7 @@ custom_proxy_group=🚢其他`select`欧洲|Netherlands|Russia|Germany|Switzerla
 
 enable_rule_generator=true
 overwrite_original_rules=true
-clash_use_provider = false
+clash_use_provider=false
 clash_rule_provider=false
 clash_use_ruleset=false
 
