@@ -1,40 +1,53 @@
-surge_ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
-surge_ruleset=Proxies,https://raw.githubusercontent.com/ma20236544/LorM/master/otp
-surge_ruleset=DIRECT,https://raw.githubusercontent.com/ma20236544/LorM/master/otd
-surge_ruleset=Youtube,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
-surge_ruleset=Terminus,https://raw.githubusercontent.com/ma20236544/LorM/refs/heads/master/Terminus
-surge_ruleset=Bilibili,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list
-surge_ruleset=Bilibili,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list
-surge_ruleset=OpenAI,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list
-surge_ruleset=OpenAI,https://raw.githubusercontent.com/ma20236544/LorM/master/openai
-surge_ruleset=Proxies,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
-surge_ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
-surge_ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
-surge_ruleset=DIRECT,[]GEOIP,CN
-surge_ruleset=Final,[]FINAL
+[surge_ruleset]
+# 1. 规则集映射（直接作为纯 rules 注入）
+DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+Proxies,https://raw.githubusercontent.com/ma20236544/LorM/master/otp
+DIRECT,https://raw.githubusercontent.com/ma20236544/LorM/master/otd
+Youtube,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
+Terminus,https://raw.githubusercontent.com/ma20236544/LorM/refs/heads/master/Terminus
+Bilibili,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list
+Bilibili,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list
+OpenAI,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list
+OpenAI,https://raw.githubusercontent.com/ma20236544/LorM/master/openai
+Proxies,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
+DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+DIRECT,[]GEOIP,CN
+Final,[]FINAL
 
-custom_proxy_group=Proxies`select`[]🇭🇰香港`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇸🇬新加坡`[]🚢其他`.*
-custom_proxy_group=Youtube`select`[]Proxies`[]🇭🇰香港`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇸🇬新加坡`[]🚢其他
-custom_proxy_group=Terminus`select`[]Proxies`[]🇭🇰香港`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇸🇬新加坡`[]🚢其他
-custom_proxy_group=Bilibili`select`[]Proxies`[]DIRECT`[]🇭🇰香港`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇸🇬新加坡`[]🚢其他
-custom_proxy_group=OpenAI`select`[]Proxies`[]🇭🇰香港`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇸🇬新加坡`[]🚢其他
-custom_proxy_group=Final`select`[]Proxies`[]DIRECT`[]🇭🇰香港`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇸🇬新加坡`[]🚢其他
-custom_proxy_group=🇭🇰香港`select`香港|Hong Kong|HKG
-custom_proxy_group=🇨🇳台湾`select`台湾|Taiwan|TWN
-custom_proxy_group=🇸🇬新加坡`select`新加坡|Singapore|SGP
-custom_proxy_group=🇯🇵日本`select`日本|Japan|JPN
-custom_proxy_group=🇺🇸美国`select`美国|USA
-custom_proxy_group=🚢其他`select`欧洲|Netherlands|Russia|Germany|Switzerland|France|United Kingdom|Sweden|Bulgaria|Austria|Ireland|Turkey|Hungary|Korea|Canada|Australia|Arab|India|Indonesia|Brazil|Argentina|Chile
+[custom_proxy_group]
+# 2. 策略组配置
+Proxies`select`[]🇭🇰香港`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇸🇬新加坡`[]🚢其他`.*
+Youtube`select`[]Proxies`[]🇭🇰香港`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇸🇬新加坡`[]🚢其他
+Terminus`select`[]Proxies`[]🇭🇰香港`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇸🇬新加坡`[]🚢其他
+Bilibili`select`[]Proxies`[]DIRECT`[]🇭🇰香港`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇸🇬新加坡`[]🚢其他
+OpenAI`select`[]Proxies`[]🇭🇰香港`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇸🇬新加坡`[]🚢其他
+Final`select`[]Proxies`[]DIRECT`[]🇭🇰香港`[]🇯🇵日本`[]🇺🇸美国`[]🇨🇳台湾`[]🇸🇬新加坡`[]🚢其他
+🇭🇰香港`select`香港|Hong Kong|HKG
+🇨🇳台湾`select`台湾|Taiwan|TWN
+🇸🇬新加坡`select`新加坡|Singapore|SGP
+🇯🇵日本`select`日本|Japan|JPN
+🇺🇸美国`select`美国|USA
+🚢其他`select`欧洲|Netherlands|Russia|Germany|Switzerland|France|United Kingdom|Sweden|Bulgaria|Austria|Ireland|Turkey|Hungary|Korea|Canada|Australia|Arab|India|Indonesia|Brazil|Argentina|Chile
 
+[common]
+# 3. 核心控制开关（逼迫 Subconverter 把所有数据 Inline 纯文本化）
 enable_rule_generator=true
 overwrite_original_rules=true
+
+# 强制将节点拉回主配置，不生成外部 proxy-provider
 clash_use_provider=false
+
+# 强制关闭所有的 rule-provider，确保生成纯 rules 列表
 clash_rule_provider=false
 clash_use_ruleset=false
 
-#clash_rule_base=https://raw.githubusercontent.com/ma20236544/LorM/master/config
+# 开启 Clash 规则直接合并注入模式
+clash_rule_base=true
+
 quanx_rule_base=https://raw.githubusercontent.com/ma20236544/LorM/master/quanx
 
+# 4. Emoji 自动归类
 emoji=(港|Hong Kong|HKG),🇭🇰
 emoji=(新加坡|Singapore|SGP),🇸🇬
 emoji=(台湾|Taiwan|TWN),🇨🇳
@@ -62,7 +75,7 @@ emoji=(泰国|THA),🇹🇭
 emoji=(菲律宾|PHL),🇵🇭
 emoji=(越南|VNM),🇻🇳
 emoji=(冰岛|ISL),🇮🇸
-emoji=(法国|France|FRA),🇫🇷
+emoji=(法国|France|FRA),辨🇫🇷
 emoji=(意大利|Italy),🇮🇹
 emoji=墨西哥,🇲🇽
 emoji=巴基斯坦,🇵🇰
@@ -91,4 +104,3 @@ emoji=(英国|United Kingdom),🇬🇧
 emoji=(阿拉伯|Arab),🇦🇪
 
 exclude_remarks=(套餐|官网|回国|用户群|剩余流量|过期时间|游戏加速|白嫖|IPV6|校园|精简|本站|Premium)
-#rename_node=云 - @
