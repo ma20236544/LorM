@@ -1,12 +1,12 @@
 surge_ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
-surge_ruleset=Proxies,https://raw.githubusercontent.com/ma20236544/LorM/master/otp
-surge_ruleset=DIRECT,https://raw.githubusercontent.com/ma20236544/LorM/master/otd
+surge_ruleset=Proxies,https://raw.githubusercontent.com/ma20236544/LorM/master/otp?token=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
+surge_ruleset=DIRECT,https://raw.githubusercontent.com/ma20236544/LorM/master/otd?token=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
 surge_ruleset=Youtube,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
-surge_ruleset=Terminus,https://raw.githubusercontent.com/ma20236544/LorM/refs/heads/master/Terminus
+surge_ruleset=Terminus,https://raw.githubusercontent.com/ma20236544/LorM/refs/heads/master/Terminus?token=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
 surge_ruleset=Bilibili,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list
 surge_ruleset=Bilibili,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list
 surge_ruleset=OpenAI,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list
-surge_ruleset=OpenAI,https://raw.githubusercontent.com/ma20236544/LorM/master/openai
+surge_ruleset=OpenAI,https://raw.githubusercontent.com/ma20236544/LorM/master/openai?token=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
 surge_ruleset=Proxies,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
 surge_ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
 surge_ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
@@ -29,8 +29,8 @@ custom_proxy_group=🚢其他`select`欧洲|Netherlands|Russia|Germany|Switzerla
 enable_rule_generator=true
 overwrite_original_rules=true
 
-clash_rule_base=https://raw.githubusercontent.com/ma20236544/LorM/master/config
-quanx_rule_base=https://raw.githubusercontent.com/ma20236544/LorM/master/quanx
+clash_rule_base=https://raw.githubusercontent.com/ma20236544/LorM/master/config?token=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
+quanx_rule_base=https://raw.githubusercontent.com/ma20236544/LorM/master/quanx?token=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
 
 emoji=(港|Hong Kong|HKG),🇭🇰
 emoji=(新加坡|Singapore|SGP),🇸🇬
