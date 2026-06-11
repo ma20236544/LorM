@@ -29,8 +29,8 @@ custom_proxy_group=🚢其他`select`欧洲|Netherlands|Russia|Germany|Switzerla
 enable_rule_generator=true
 overwrite_original_rules=true
 
-clash_rule_base=https://raw.githubusercontent.com/ma20236544/LorM/master/config
-quanx_rule_base=https://raw.githubusercontent.com/ma20236544/LorM/master/quanx
+#clash_rule_base=https://raw.githubusercontent.com/ma20236544/LorM/master/config
+#quanx_rule_base=https://raw.githubusercontent.com/ma20236544/LorM/master/quanx
 
 emoji=(港|Hong Kong|HKG),🇭🇰
 emoji=(新加坡|Singapore|SGP),🇸🇬
